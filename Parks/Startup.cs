@@ -4,9 +4,9 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.EntityFrameworkCore;
-using Park.Models;
+using ParkLocator.Models;
 
-namespace Park
+namespace ParkLocator
 {
     public class Startup
     {
@@ -19,7 +19,7 @@ namespace Park
         public void ConfigureServices(IServiceCollection services)
         {
 
-            services.AddDbContext<ParkContext>(opt =>
+            services.AddDbContext<ParkLocatorContext>(opt =>
                 opt.UseMySql(Configuration["ConnectionStrings:DefaultConnection"], ServerVersion.AutoDetect(Configuration["ConnectionStrings:DefaultConnection"])));
             services.AddControllers();
         }
