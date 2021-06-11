@@ -34,7 +34,7 @@ _{This is a seeded api which can be called on to display national parks from aro
   },
   "AllowedHosts": "*",
   "ConnectionStrings": {
-    "DefaultConnection": "Server=localhost;Port=3306;database=parks;uid=root;pwd=epicodus;"
+    "DefaultConnection": "Server=localhost;Port=3306;database=National_Parks;uid=root;pwd=epicodus;"
   }
 }
 ```
