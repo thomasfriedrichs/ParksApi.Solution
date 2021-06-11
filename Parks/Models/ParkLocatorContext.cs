@@ -13,11 +13,11 @@ namespace ParkLocator.Models
         {
           builder.Entity<Park>()
               .HasData(
-                  new Park { ParkId = 1, Name = "Matilda", State = "Woolly Mammoth", YearFounded = 7, Rating = "Female" },
-                  new Park { ParkId = 2, Name = "Rexie", State = "Dinosaur", YearFounded = 10, Rating = "Female" },
-                  new Park { ParkId = 3, Name = "Matilda", State = "Dinosaur", YearFounded = 2, Rating = "Female" },
-                  new Park { ParkId = 4, Name = "Pip", State = "Shark", YearFounded = 4, Rating = "Male" },
-                  new Park { ParkId = 5, Name = "Bartholomew", State = "Dinosaur", YearFounded = 22, Rating = "Male" }
+                  new Park { ParkId = 1, Name = "Acadia", State = "Maine", YearFounded = 1919, YearlyVisitors = "3437286" },
+                  new Park { ParkId = 2, Name = "American Samoa", State = "American Samoa", YearFounded = 1988, YearlyVisitors = "60000" },
+                  new Park { ParkId = 3, Name = "Arches", State = "Utah", YearFounded = 1971, YearlyVisitors = "1659702" },
+                  new Park { ParkId = 4, Name = "Pip", State = "Shark", YearFounded = 4, YearlyVisitors = "Male" },
+                  new Park { ParkId = 5, Name = "Bartholomew", State = "Dinosaur", YearFounded = 22, YearlyVisitors = "Male" }
               );
         }
 

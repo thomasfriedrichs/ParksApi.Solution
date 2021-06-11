@@ -6,6 +6,6 @@ namespace ParkLocator.Models
         public string Name { get; set; }
         public string State { get; set; }
         public int YearFounded { get; set; }
-        public int Rating { get; set; }
+        public int YearlyVisitors { get; set; }
     }
 }
