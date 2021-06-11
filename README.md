@@ -38,8 +38,7 @@ _{This is a seeded api which can be called on to display national parks from aro
   }
 }
 ```
-* _navigate to NationalParksLocator directory and run 'dotnet ef migrations add initial' in your terminal_
-* _then run 'dotnet ef database update'_
+* _navigate to NationalParksLocator directory and run 'dotnet ef database update' in your terminal_
 * _now do 'dotnet watch run' in your terminal_
 * _type 'http://localhost:5000/swagger' in your browser url bar_
 * _now you have a view where you can test out those endpoints!_
