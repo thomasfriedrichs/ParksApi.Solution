@@ -1,4 +1,4 @@
-namespace ParkLocator.Models
+namespace NationalParksLocator.Models
 {
     public class Park
     {

@@ -5,17 +5,17 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using ParkLocator.Models;
+using NationalParksLocator.Models;
 
-namespace ParkLocator.Controllers
+namespace NationalParksLocator.Controllers
 {
   [Route("api/[controller]")]
   [ApiController]
   public class ParksController : ControllerBase
   {
-    private readonly ParkLocatorContext _db;
+    private readonly NationalParksLocatorContext _db;
 
-    public ParksController(ParkLocatorContext db)
+    public ParksController(NationalParksLocatorContext db)
     {
       _db = db;
     }
