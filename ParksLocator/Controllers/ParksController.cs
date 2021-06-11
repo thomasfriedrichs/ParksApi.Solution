@@ -5,17 +5,17 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using Park.Models;
+using ParkLocator.Models;
 
-namespace Park.Controllers
+namespace ParkLocator.Controllers
 {
   [Route("api/[controller]")]
   [ApiController]
   public class ParksController : ControllerBase
   {
-    private readonly ParkContext _db;
+    private readonly ParkLocatorContext _db;
 
-    public ParksController(ParkContext db)
+    public ParksController(ParkLocatorContext db)
     {
       _db = db;
     }
@@ -63,7 +63,7 @@ namespace Park.Controllers
         return BadRequest();
       }
 
-      _db.Entry(Park).State = EntityState.Modified;
+      _db.Entry(park).State = EntityState.Modified;
 
       try
       {
