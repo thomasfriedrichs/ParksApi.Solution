@@ -22,6 +22,7 @@ namespace ParkLocator
             services.AddDbContext<ParkLocatorContext>(opt =>
                 opt.UseMySql(Configuration["ConnectionStrings:DefaultConnection"], ServerVersion.AutoDetect(Configuration["ConnectionStrings:DefaultConnection"])));
             services.AddControllers();
+            services.AddSwaggerGen();
         }
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
@@ -29,6 +30,12 @@ namespace ParkLocator
             {
                 app.UseDeveloperExceptionPage();
             }
+
+            app.UseSwagger();
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json" , "My API V1");
+            });
 
             app.UseRouting();
 
