@@ -56,4 +56,4 @@ _If you have any questions or concerns please feel free to contact me!_
 
 ## Contact Information
 
-_sThomas Friedrichs friedrichs.tommy@gmail.com_
+_Thomas Friedrichs friedrichs.tommy@gmail.com_
