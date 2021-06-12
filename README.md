@@ -14,7 +14,7 @@
 
 ## Description
 
-_{This is a seeded api which can be called on to display national parks from around the country.}_
+_This is a seeded api which can be called on to display national parks from around the country._
 
 ## Setup/Installation Requirements
 
