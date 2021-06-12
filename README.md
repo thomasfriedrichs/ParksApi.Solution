@@ -1,8 +1,8 @@
-# _{Park Locator}_
+# _Park Locator_
 
-#### _{A Park Locator api}_
+#### _A Park Locator api_
 
-#### By _**{Thomas Friedrichs}**_
+#### By _**Thomas Friedrichs**_
 
 ## Technologies Used
 
