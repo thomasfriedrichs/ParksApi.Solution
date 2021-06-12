@@ -52,8 +52,8 @@ MIT License
 
 Copyright (c) [2021] [Thomas Friedrichs]
 
-_{If you have any questions or concerns please feel free to contact me!}_
+_If you have any questions or concerns please feel free to contact me!_
 
 ## Contact Information
 
-_{Thomas Friedrichs friedrichs.tommy@gmail.com}_
+_sThomas Friedrichs friedrichs.tommy@gmail.com_
